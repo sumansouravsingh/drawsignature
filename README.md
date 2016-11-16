@@ -1,6 +1,6 @@
-<h1>Draw your signature using Javascript</h1>
+Markup: #Draw your signature using Javascript#
 
-Simple Javascript to draw your signatures.
+Markup: ##Simple Javascript to draw your signatures.##
 Parameters to be passed : 
 1st -> width,
 2nd -> height,
