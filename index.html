@@ -1,0 +1,36 @@
+<!DOCTYPE HTML>
+<html>
+   <head>
+      <style>
+         *
+         {
+            margin:0 auto;
+            padding:0px;
+         }
+         a,a:visited
+         {
+            padding: 5px 10px 5px 10px;
+            margin-top:50px;
+            color:white;
+            background: #bc3526;
+            cursor: pointer;
+            text-decoration: none;
+         }
+      </style>
+   </head>
+   <body>
+      <div id="mycanvas" width="100%" height="100%"></div>
+      <a onclick="donwloadimg(this)">Download Signature</a>
+      <a onclick="reset()">Reset</a>
+      <script src="signature.js">
+      </script>
+      <script type="text/javascript">
+         drawSignature(400,400,"#ccc");
+         function donwloadimg(x)
+         {
+            x.href=document.getElementById('signature-canvas').toDataURL("image/png");
+            x.download = "signature.png";
+         }
+   </script>   
+   </body>
+</html>
