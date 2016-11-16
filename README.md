@@ -1,6 +1,6 @@
-Markup: #Draw your signature using Javascript#
+Markup : #Draw your signature using Javascript#
 
-Markup: ##Simple Javascript to draw your signatures.##
+Markup : ##Simple Javascript to draw your signatures.##
 Parameters to be passed : 
 1st -> width,
 2nd -> height,
