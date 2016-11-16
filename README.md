@@ -5,7 +5,7 @@ Parameters to be passed :
 1st -> width,
 2nd -> height,
 3rd -> color in which to draw (default : black)
-
+4th -> Add or remove border (1 or 0)
 Also download the signature if you want to.
 To remove the border from the canvas simply comment out the line - cElem.setAttribute("style","border :1px solid black");
     
